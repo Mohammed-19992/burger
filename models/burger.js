@@ -12,7 +12,7 @@ Burger.selectYourBurgers = function () {
         }).catch(() => {
             reject("Burger not retrieved");
         });
-    })
+    });
 };
 
 Burger.create = function (burger) {
@@ -37,7 +37,7 @@ Burger.updateDevoured = function (burgerId) {
         }).catch(() => {
             reject("Burger not updated");
         });
-    })
+    });
 };
 
 
