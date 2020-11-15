@@ -13,8 +13,8 @@ This app is built with MySQL, Node, Express, Handlebars and a homemade ORM.
 ## screenshot of the project:
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/67847324/98895031-1c079f80-2474-11eb-9d75-1a2b539ae3bf.gif)
 ## Review
-* The URL of the app on Heroku: 
-* The URL of the GitHub repository: 
+* The URL of the app on Heroku: https://pure-citadel-46287.herokuapp.com/
+* The URL of the GitHub repository: https://github.com/Mohammed-19992/burger
 
 ## ISC License
 Copyright 2020 Mohammed arafat
