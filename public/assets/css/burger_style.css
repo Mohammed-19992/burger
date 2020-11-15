@@ -1,0 +1,36 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 45px;
+    background-image: url(https://www.itl.cat/pngfile/big/135-1355594_wallpaper-burger-french-fries-food-high-quality-pictures.jpg)
+}
+
+.card-header {
+    background-color: orangered;
+    color: black;
+}
+#nav a {
+    font-size: 40px;
+    color: orange;
+    display:block;
+    text-align:center;
+
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 45px;
+    text-align: center;
+    width: 100%;
+    background-color: #343A40;
+}
+
+footer small {
+    line-height: 40px;
+    color: #D2B773;
+    font-size: 12px;
+}
