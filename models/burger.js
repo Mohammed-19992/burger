@@ -7,7 +7,7 @@ function Burger(name) {
 
 Burger.selectYourBurgers = function () {
     return new Promise((resolve, reject) => {
-        orm.selectAll("BURGERS").then(results => {
+        orm.selectAll("burgers").then(results => {
             resolve(results);
         }).catch(() => {
             reject("Burger not retrieved");
