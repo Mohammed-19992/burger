@@ -12,12 +12,12 @@ Burger.selectYourBurgers = function () {
         }).catch(() => {
             reject("Burger not retrieved");
         });
-    });
+    })
 };
 
 Burger.create = function (burger) {
     return new Promise((resolve, reject) => {
-        orm.insertOne("BURGERS", {
+        orm.insertOne("burgers", {
             burger_name: burger.name,
             devoured: burger.devoured
         }).then(results => {
@@ -32,7 +32,7 @@ Burger.create = function (burger) {
 
 Burger.updateDevoured = function (burgerId) {
     return new Promise((resolve, reject) => {
-        orm.updateOne("BURGERS", "DEVOURED", true, "ID", burgerId).then(results => {
+        orm.updateOne("burgers", "devoured", true, "ID", burgerId).then(results => {
             resolve(results);
         }).catch(() => {
             reject("Burger not updated");
