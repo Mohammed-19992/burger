@@ -17,7 +17,7 @@ Burger.selectYourBurgers = function () {
 
 Burger.create = function (burger) {
     return new Promise((resolve, reject) => {
-        orm.insertOne("BURGERS", {
+        orm.insertOne("burgers", {
             burger_name: burger.name,
             devoured: burger.devoured
         }).then(results => {
