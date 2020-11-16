@@ -21,7 +21,7 @@ var orm = {
     insertOne: function (tableInput, obj) {
         var query = `INSERT INTO BURGERS SET ?`;
         return new Promise((resolve, reject) => {
-            connection.query(query, tableInput, obj, (error, result) => {
+            connection.query(query, obj, [tableInput], (error, result) => {
                 if (error) {
                     reject(error);
                 } else {
