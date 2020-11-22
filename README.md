@@ -11,7 +11,7 @@ Whenever a user submits a burger's name, your app will display the burger on the
 Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move to the right side of the page.
 
 ## Screenshot of the project:
-
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/67847324/99898769-17ac6500-2c72-11eb-80f2-c46dc265de6a.gif)
 ## Review
 * The URL of the app on Heroku: https://arcane-fortress-99310.herokuapp.com
 * The URL of the GitHub repository: https://github.com/Mohammed-19992/burger
